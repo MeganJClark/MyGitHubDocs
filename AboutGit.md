@@ -1,15 +1,15 @@
-# Git
-## Who developed git
+# Git History
+### Who developed git
 Git was developed in 2005 by Linux Torvalds in cooperation with the Linux community.
 
-## Why was it developed
+### Why was it developed
 When Linux developers lost free usage of the proprietary DVCS "BitKeeper" in 2005, they opted to develop their own tool. The goal of Git was a DVCS with the following traits:
 * speed
 * simple design
 * strong support for non-linear development (thousands of parallel branches)
 * able to efficiently handle large projects like the Linux kernel
 
-## What makes Git different
+### What makes Git different
 
 Git is different in several respects from other VCS, including other DVCS.
 
