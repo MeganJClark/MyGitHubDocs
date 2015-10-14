@@ -1,11 +1,11 @@
 # How to install Git
 ## Section Links
 * [Various Linux distro package instructions](#linux-installation-options)
-* [Fedora source instructions](#FedoraSource)
-* [Debian/Ubuntu source instructions](#DebianSource)
-* [Debian/Ubuntu using GitHub instructions](#GitHubInstall)
-* [Mac Installation Options](#Mac)
-* [Windows Installation Options](#Windows-Installation-Options)
+* [Fedora source instructions](#fedora-source-installation)
+* [Debian/Ubuntu source instructions](#debian-source-installation)
+* [Debian/Ubuntu using GitHub instructions](#debian-source-install-using-github)
+* [Mac Installation Options](#mac-installation-options)
+* [Windows Installation Options](#windows-installation-options)
 
 ---
 
