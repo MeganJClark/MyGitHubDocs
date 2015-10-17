@@ -11,6 +11,23 @@
 * to change the default timeout period (setting is in seconds)</br>
 ```$ git config --global credential.helper 'cache --timeout=3600'```
 
+### Permanent credential cache
+Keep in mind this method stores your password on the disk in plain text
+1. Add the following line to your ~/.netrc where "hostname" is the server's hostname, "username" and "password" are your credentials</br>
+```machine <hostname> login <username> password <password>```
+2. set restrictive filesystem permissions on that file:</br>
+```chmod 600 ~/.netrc```
+
+##### For Windows Machines
+*untested*
+1. open command prompt and type to create environment variable %HOME% where home will be set to 'C:\Users\"username"' </br>
+```setx HOME %USERPROFILE%```
+2. Go to C:\Users\"username" and create a file called _netrc
+3. Add the following content (replace the <> with your values)</br>
+```machine <hostname>
+   login <username>
+   password <password>```
+
 ## Push to multiple repositories with one command
 1. Use && to push to both repositories</br>
 ```$ git push first-remote && git push seond-remote ```
