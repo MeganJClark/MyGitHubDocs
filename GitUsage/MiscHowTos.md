@@ -1,7 +1,15 @@
 # How to:
 ##### Section Jumps
+* [Save credentials](##save_your_credentials_in_Git)
 * [Push to multiple repositories with one command](##push_to_multiple_repositories_with_one_command)
 * [Sync with upstream branch]()
+
+## Save your credentials in Git
+### Temporary credential cache
+1. Turn on the credential helper so that Git will save your password in memory for a while (default is 15 minutes).</br>
+```$ git config --global  credential.helper cache```
+* to change the default timeout period (setting is in seconds)</br>
+```$ git config --global credential.helper 'cache --timeout=3600'```
 
 ## Push to multiple repositories with one command
 1. Use && to push to both repositories</br>
